@@ -1,1 +1,3 @@
-console.log("프로젝트 생성 완료");
+const database = require("./database");
+
+console.log(database.people);
